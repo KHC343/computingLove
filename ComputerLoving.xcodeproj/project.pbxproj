@@ -89,6 +89,7 @@
 				3FC3459F1BA075DE00757467 /* Main.storyboard */,
 				3F37F9B81BA71BCF002EB260 /* MC.swift */,
 				3F0154D71BA713D7002BDA84 /* Girl.swift */,
+				3F0154DB1BA71731002BDA84 /* JavaGirl.swift */,
 				3FC345A21BA075DE00757467 /* Images.xcassets */,
 				3FC345A41BA075DE00757467 /* LaunchScreen.xib */,
 				3FC345991BA075DE00757467 /* Supporting Files */,
@@ -221,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0154DC1BA71731002BDA84 /* JavaGirl.swift in Sources */,
 				3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */,
 				3FC345BC1BA3436200757467 /* DialougeViewController.swift in Sources */,
 				3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */,
