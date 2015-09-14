@@ -11,10 +11,18 @@ import UIKit
 class DialougeViewController: UIViewController {
 
     @IBOutlet weak var TextField: UITextView!
+    @IBOutlet weak var NextButton: UIButton!
+    @IBOutlet weak var Choice1: UIButton!
+    @IBOutlet weak var Choice2: UIButton!
+    @IBOutlet weak var Choice3: UIButton!
+    @IBOutlet weak var Choice4: UIButton!
     var count = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Choice1.setTitle("", forState: UIControlState.Normal)
+        Choice2.setTitle("", forState: UIControlState.Normal)
+        Choice3.setTitle("", forState: UIControlState.Normal)
+        Choice4.setTitle("", forState: UIControlState.Normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,7 +59,16 @@ class DialougeViewController: UIViewController {
         {
             TextField.text = "No my Dad worked hard for me how could I do that to him. Plus I need to leave for school in an hour."
         }
-        
+        if (count == 8)
+        {
+            NextButton.setTitle("", forState: UIControlState.Normal)
+            Choice1.setTitle("Get angry", forState: UIControlState.Normal)
+            Choice2.setTitle("Pout", forState: UIControlState.Normal)
+            Choice3.setTitle("Give up", forState: UIControlState.Normal)
+            Choice4.setTitle("Look on the bright side", forState: UIControlState.Normal)
+        }
+    }
+    @IBAction func Choice1(sender: AnyObject) {
         
     }
 }
