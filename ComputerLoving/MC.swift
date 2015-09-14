@@ -8,15 +8,20 @@
 
 import UIKit
 
-class MC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+class MC: NSObject
+{
+    var one = 0
+    var two = 0
+    var three = 0
+    var four = 0
+    var gender = 0
+    var name = ""
+    
+    convenience init(MCname: String, Gender: Int)
+    {
+        self.init()
+        self.gender = 0
+        self.name = MCname
     }
     
 

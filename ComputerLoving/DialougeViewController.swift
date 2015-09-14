@@ -69,6 +69,6 @@ class DialougeViewController: UIViewController {
         }
     }
     @IBAction func Choice1(sender: AnyObject) {
-        
+        //forgot how to change class data
     }
 }
