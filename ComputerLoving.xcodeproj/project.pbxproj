@@ -13,6 +13,7 @@
 		3FC345A31BA075DE00757467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC345A21BA075DE00757467 /* Images.xcassets */; };
 		3FC345A61BA075DE00757467 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC345A41BA075DE00757467 /* LaunchScreen.xib */; };
 		3FC345B21BA075DE00757467 /* ComputerLovingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC345B11BA075DE00757467 /* ComputerLovingTests.swift */; };
+		3FC345BC1BA3436200757467 /* DialougeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC345BB1BA3436200757467 /* DialougeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3FC345AB1BA075DE00757467 /* ComputerLovingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComputerLovingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC345B01BA075DE00757467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC345B11BA075DE00757467 /* ComputerLovingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerLovingTests.swift; sourceTree = "<group>"; };
+		3FC345BB1BA3436200757467 /* DialougeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialougeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3FC3459B1BA075DE00757467 /* AppDelegate.swift */,
 				3FC3459D1BA075DE00757467 /* ViewController.swift */,
+				3FC345BB1BA3436200757467 /* DialougeViewController.swift */,
 				3FC3459F1BA075DE00757467 /* Main.storyboard */,
 				3FC345A21BA075DE00757467 /* Images.xcassets */,
 				3FC345A41BA075DE00757467 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */,
+				3FC345BC1BA3436200757467 /* DialougeViewController.swift in Sources */,
 				3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				3FC345B71BA075DE00757467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FC345B81BA075DE00757467 /* Build configuration list for PBXNativeTarget "ComputerLovingTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3FC345BA1BA075DE00757467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
