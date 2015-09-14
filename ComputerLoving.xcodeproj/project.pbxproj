@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F0154D81BA713D7002BDA84 /* Girl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0154D71BA713D7002BDA84 /* Girl.swift */; };
+		3F0154DC1BA71731002BDA84 /* JavaGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0154DB1BA71731002BDA84 /* JavaGirl.swift */; };
 		3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3459B1BA075DE00757467 /* AppDelegate.swift */; };
 		3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3459D1BA075DE00757467 /* ViewController.swift */; };
 		3FC345A11BA075DE00757467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3459F1BA075DE00757467 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3F0154D71BA713D7002BDA84 /* Girl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Girl.swift; sourceTree = "<group>"; };
+		3F0154DB1BA71731002BDA84 /* JavaGirl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JavaGirl.swift; path = ../JavaGirl.swift; sourceTree = "<group>"; };
 		3FC345961BA075DE00757467 /* ComputerLoving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerLoving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3459A1BA075DE00757467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC3459B1BA075DE00757467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				3FC345BB1BA3436200757467 /* DialougeViewController.swift */,
 				3FC3459F1BA075DE00757467 /* Main.storyboard */,
 				3F0154D71BA713D7002BDA84 /* Girl.swift */,
+				3F0154DB1BA71731002BDA84 /* JavaGirl.swift */,
 				3FC345A21BA075DE00757467 /* Images.xcassets */,
 				3FC345A41BA075DE00757467 /* LaunchScreen.xib */,
 				3FC345991BA075DE00757467 /* Supporting Files */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0154DC1BA71731002BDA84 /* JavaGirl.swift in Sources */,
 				3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */,
 				3FC345BC1BA3436200757467 /* DialougeViewController.swift in Sources */,
 				3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */,
