@@ -10,6 +10,7 @@ import UIKit
 
 class PongViewController: UIViewController {
     
+    var collisonBehavior = UICollisionBehavior()
     var playerPaddle : UIView = UIView()
     var enemyPaddle : UIView = UIView()
     var ball : UIView = UIView()
@@ -17,6 +18,9 @@ class PongViewController: UIViewController {
     var ballBehavior = UIDynamicItemBehavior()
 
     override func viewDidLoad() {
+        
+        view.backgroundColor = UIColor.blackColor()
+        dynamicAnimator = UIDynamicAnimator(referenceView: view)
         
         playerPaddle = UIView(frame: CGRectMake(500, view.center.y, 30, 90))
         playerPaddle.backgroundColor = UIColor.blueColor()
@@ -30,7 +34,7 @@ class PongViewController: UIViewController {
         enemyPaddle.layer.masksToBounds = true
         view.addSubview(enemyPaddle)
         
-        ball = UIView(frame: CGRectMake(view.center.x-10, 500, 20, 20))
+        ball = UIView(frame: CGRectMake(view.center.x, view.center.y, 20, 20))
         ball.backgroundColor = UIColor.greenColor()
         ball.layer.cornerRadius = 10
         ball.layer.masksToBounds = true
@@ -42,6 +46,18 @@ class PongViewController: UIViewController {
         ballBehavior.friction = 0.0
         ballBehavior.resistance = 0.0
         dynamicAnimator.addBehavior(ballBehavior)
+        
+        var pushBehavior = UIPushBehavior(items: [ball], mode: UIPushBehaviorMode.Instantaneous)
+        pushBehavior.magnitude = 0.2
+        pushBehavior.angle = 1.1
+        pushBehavior.active = true
+        dynamicAnimator.addBehavior(pushBehavior)
+        
+        collisonBehavior = UICollisionBehavior(items: allViews)
+        collisonBehavior.collisionMode = UICollisionBehaviorMode.Everything
+        collisonBehavior.collisionDelegate = self
+        collisonBehavior.translatesReferenceBoundsIntoBoundary = true
+        dynamicAnimator.addBehavior(collisonBehavior)
         
         super.viewDidLoad()
     }

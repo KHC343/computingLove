@@ -206,16 +206,16 @@
                         <viewControllerLayoutGuide type="bottom" id="Aeg-Ns-MzK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kYZ-z9-2Mz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xau-NI-Zt4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3024" y="-263"/>
+            <point key="canvasLocation" x="3046" y="-279"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZAb-0K-foe">
