@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F0154D81BA713D7002BDA84 /* Girl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0154D71BA713D7002BDA84 /* Girl.swift */; };
+		3F0154DE1BA845B9002BDA84 /* JavaGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0154DD1BA845B9002BDA84 /* JavaGirl.swift */; };
+		3F0154E21BA84706002BDA84 /* PongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0154E11BA84706002BDA84 /* PongViewController.swift */; };
 		3F37F9B91BA71BCF002EB260 /* MC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F9B81BA71BCF002EB260 /* MC.swift */; };
 		3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3459B1BA075DE00757467 /* AppDelegate.swift */; };
 		3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3459D1BA075DE00757467 /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		3F0154D71BA713D7002BDA84 /* Girl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Girl.swift; sourceTree = "<group>"; };
+		3F0154DD1BA845B9002BDA84 /* JavaGirl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaGirl.swift; sourceTree = "<group>"; };
+		3F0154E11BA84706002BDA84 /* PongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongViewController.swift; sourceTree = "<group>"; };
 		3F37F9B81BA71BCF002EB260 /* MC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MC.swift; sourceTree = "<group>"; };
 		3FC345961BA075DE00757467 /* ComputerLoving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerLoving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3459A1BA075DE00757467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0154DF1BA8465A002BDA84 /* Girls */ = {
+			isa = PBXGroup;
+			children = (
+				3F0154D71BA713D7002BDA84 /* Girl.swift */,
+				3F0154DD1BA845B9002BDA84 /* JavaGirl.swift */,
+			);
+			name = Girls;
+			sourceTree = "<group>";
+		};
+		3F0154E01BA84678002BDA84 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				3F0154E11BA84706002BDA84 /* PongViewController.swift */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
 		3FC3458D1BA075DE00757467 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +109,8 @@
 				3FC345BB1BA3436200757467 /* DialougeViewController.swift */,
 				3FC3459F1BA075DE00757467 /* Main.storyboard */,
 				3F37F9B81BA71BCF002EB260 /* MC.swift */,
-				3F0154D71BA713D7002BDA84 /* Girl.swift */,
-				3F0154DB1BA71731002BDA84 /* JavaGirl.swift */,
+				3F0154E01BA84678002BDA84 /* Games */,
+				3F0154DF1BA8465A002BDA84 /* Girls */,
 				3FC345A21BA075DE00757467 /* Images.xcassets */,
 				3FC345A41BA075DE00757467 /* LaunchScreen.xib */,
 				3FC345991BA075DE00757467 /* Supporting Files */,
@@ -222,11 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0154DC1BA71731002BDA84 /* JavaGirl.swift in Sources */,
 				3FC3459E1BA075DE00757467 /* ViewController.swift in Sources */,
 				3FC345BC1BA3436200757467 /* DialougeViewController.swift in Sources */,
 				3FC3459C1BA075DE00757467 /* AppDelegate.swift in Sources */,
+				3F0154DE1BA845B9002BDA84 /* JavaGirl.swift in Sources */,
 				3F37F9B91BA71BCF002EB260 /* MC.swift in Sources */,
+				3F0154E21BA84706002BDA84 /* PongViewController.swift in Sources */,
 				3F0154D81BA713D7002BDA84 /* Girl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
