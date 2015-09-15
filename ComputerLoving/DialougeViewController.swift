@@ -67,24 +67,48 @@ class DialougeViewController: UIViewController {
         }
         if (count == 9)
         {
-             TextField.text = "Suddenly my computer screen winked out." + \("Hello")//quotations inside a text string
+            if (Mc.greatest == 1)
+            {
+                TextField.text = "I felt myself getting more angry. “Really, c’mon!” I curled my hands into fist and just wanted to hit something. "
+            }
+            else if (Mc.greatest == 2)
+            {
+                TextField.text = "I felt myself becoming even more upset. “Now I just want to cry.”"
+            }
+            else if (Mc.greatest == 3)
+            {
+                TextField.text =  "I didn’t even bother looking up “You know what I’m not even surprised.”"
+            }
+            else if (Mc.greatest == 4)
+            {
+                TextField.text = "“Well, I wasn’t even doing anything anyway.”"
+            }
         }
     }
+    
     @IBAction func Choice1(sender: AnyObject) {
         Mc.one = 1
         OffChoices()
+        TextField.text = "Suddenly my computer screen winked out. “Right sure.” "
+
     }
     @IBAction func Choice2(sender: AnyObject) {
         Mc.two = 2
         OffChoices()
+        TextField.text = "Suddenly my computer screen winked out. “Right sure.” "
+
     }
     @IBAction func Choice3(sender: AnyObject) {
         Mc.two = 3
         OffChoices()
+        TextField.text = "Suddenly my computer screen winked out. “Right sure.” "
+
     }
     @IBAction func Choice4(sender: AnyObject) {
         Mc.two = 4
         OffChoices()
+        TextField.text = "Suddenly my computer screen winked out. “Right sure.” "
+
     }
     func OffChoices()
     {
@@ -93,6 +117,7 @@ class DialougeViewController: UIViewController {
         Choice3.setTitle("", forState: UIControlState.Normal)
         Choice4.setTitle("", forState: UIControlState.Normal)
         NextButton.setTitle("Next", forState: UIControlState.Normal)
+        NextButton.enabled = true
     }
     
 }
