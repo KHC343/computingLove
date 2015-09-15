@@ -20,10 +20,7 @@ class DialougeViewController: UIViewController {
     var count = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        Choice1.setTitle("", forState: UIControlState.Normal)
-        Choice2.setTitle("", forState: UIControlState.Normal)
-        Choice3.setTitle("", forState: UIControlState.Normal)
-        Choice4.setTitle("", forState: UIControlState.Normal)
+        OffChoices()
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,18 +65,34 @@ class DialougeViewController: UIViewController {
             Choice3.setTitle("Give up", forState: UIControlState.Normal)
             Choice4.setTitle("Look on the bright side", forState: UIControlState.Normal)
         }
+        if (count == 9)
+        {
+             TextField.text = "Suddenly my computer screen winked out." + \("Hello")//quotations inside a text string
+        }
     }
     @IBAction func Choice1(sender: AnyObject) {
         Mc.one = 1
+        OffChoices()
     }
     @IBAction func Choice2(sender: AnyObject) {
-        Mc.two = 1
+        Mc.two = 2
+        OffChoices()
     }
     @IBAction func Choice3(sender: AnyObject) {
-        Mc.two = 2
+        Mc.two = 3
+        OffChoices()
     }
     @IBAction func Choice4(sender: AnyObject) {
         Mc.two = 4
+        OffChoices()
+    }
+    func OffChoices()
+    {
+        Choice1.setTitle("", forState: UIControlState.Normal)
+        Choice2.setTitle("", forState: UIControlState.Normal)
+        Choice3.setTitle("", forState: UIControlState.Normal)
+        Choice4.setTitle("", forState: UIControlState.Normal)
+        NextButton.setTitle("Next", forState: UIControlState.Normal)
     }
     
 }
