@@ -16,6 +16,7 @@ class DialougeViewController: UIViewController {
     @IBOutlet weak var Choice2: UIButton!
     @IBOutlet weak var Choice3: UIButton!
     @IBOutlet weak var Choice4: UIButton!
+    var Mc = MC()
     var count = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +70,16 @@ class DialougeViewController: UIViewController {
         }
     }
     @IBAction func Choice1(sender: AnyObject) {
-        //forgot how to change class data
+        Mc.one = 1
     }
+    @IBAction func Choice2(sender: AnyObject) {
+        Mc.two = 1
+    }
+    @IBAction func Choice3(sender: AnyObject) {
+        Mc.two = 2
+    }
+    @IBAction func Choice4(sender: AnyObject) {
+        Mc.two = 4
+    }
+    
 }
