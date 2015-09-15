@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F6815D0-98AD-4BDF-A085-C89225DA572D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ComputerLoving</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B014F3BB647D193515051F0F25819B846997AE8D</key>
+		<string>https://github.com/SRMorris/computingLove.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ComputerLoving.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B014F3BB647D193515051F0F25819B846997AE8D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SRMorris/computingLove.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B014F3BB647D193515051F0F25819B846997AE8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B014F3BB647D193515051F0F25819B846997AE8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>computingLove</string>
+		</dict>
+	</array>
+</dict>
+</plist>
