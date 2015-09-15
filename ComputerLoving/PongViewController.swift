@@ -9,6 +9,12 @@
 import UIKit
 
 class PongViewController: UIViewController {
+    
+    var playerPaddle : UIView = UIView()
+    var enemyPaddle : UIView = UIView()
+    var ball : UIView = UIView()
+    var dynamicAnimator = UIDynamicAnimator()
+    var ballBehavior = UIDynamicItemBehavior()
 
     override func viewDidLoad() {
         
@@ -30,11 +36,16 @@ class PongViewController: UIViewController {
         ball.layer.masksToBounds = true
         view.addSubview(ball)
         
+        ballBehavior = UIDynamicItemBehavior(items: [ball])
+        ballBehavior.elasticity = 1.0
+        ballBehavior.allowsRotation = false
+        ballBehavior.friction = 0.0
+        ballBehavior.resistance = 0.0
+        dynamicAnimator.addBehavior(ballBehavior)
+        
         super.viewDidLoad()
     }
-    var playerPaddle : UIView = UIView()
-    var enemyPaddle : UIView = UIView()
-    var ball : UIView = UIView()
+    
     
     
 }
