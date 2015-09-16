@@ -26,6 +26,7 @@ class DialougeViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
     @IBAction func Next(sender: AnyObject) {
         count++
         if(count == 1)
@@ -39,7 +40,7 @@ class DialougeViewController: UIViewController {
         if (count == 3)
         {
             TextField.text = "I don’t remember when I started to be afraid of crowds maybe it has to do with my family. My Mother passed away when I was young leaving just me and my Dad. To keep us afloat my dad worked day and night to provide which left me alone in the house for the majority of the day."
-
+            
         }
         if (count == 4)
         {

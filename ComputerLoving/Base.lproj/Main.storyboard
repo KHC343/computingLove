@@ -119,8 +119,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Next2:" destination="2Re-TG-Wur" eventType="touchUpInside" id="D4L-04-ePJ"/>
-                                    <action selector="Next:" destination="2Re-TG-Wur" eventType="touchUpInside" id="pNp-QO-VuQ"/>
+                                    <action selector="Next:" destination="2Re-TG-Wur" eventType="touchUpInside" id="Rj9-Cp-IUe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3Z-fb-Rq1">
